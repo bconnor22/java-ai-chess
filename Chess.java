@@ -49,15 +49,10 @@ public class Chess {
          // 8x8 board represented as a 2D array of strings
             String[][] board = new String[8][8];
         
-
-
-            
-
-            
             menuLoop:
             do {
 
-                // Print the menu options
+                // Print the menu soptions
                 System.out.println("Menu Options: ");
                 MENU_OPTIONS.forEach((key, value) -> System.out.printf("%d: %s \n", value, key));
                 System.out.println();
