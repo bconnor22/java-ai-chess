@@ -23,6 +23,16 @@ public class Chess2 {
                         case 6:
                             board[i][j] = 'k';
                             break;
+                        case 2:
+                        case 5:
+                            board[i][j] = 'b';
+                            break;
+                        case 3:
+                            board[i][j] = 'K';
+                            break;
+                        case 4: 
+                            board[i][j] = 'Q';
+                            break;
                     }
 
                 } else if (i == 1 || i == 6) {
@@ -32,8 +42,6 @@ public class Chess2 {
                     board[i][j] = '.';
                 }
             }
-            System.out.println();
         }
-        
     }
 }
