@@ -50,5 +50,11 @@ public class Chess2 {
             }
             System.out.println();
         }
+
+        boolean win = false;
+
+        while(!win) {
+
+        }
     }
 }
